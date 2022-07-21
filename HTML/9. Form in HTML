@@ -1,0 +1,19 @@
+Dealing with form
+
+Form is used to take input in HTML and send it to database
+
+<body>
+
+   <form action="#" method="GET" >
+          <input type="text">
+          <input type="email">
+          <input type="password">
+          
+          <br>
+          <input type="checkbox" value="yes"> <span> are you a robot</span>
+          <input type="submit">      ---- to create a button
+          
+   
+   </form>
+
+</body>
