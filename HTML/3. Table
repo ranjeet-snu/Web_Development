@@ -1,0 +1,19 @@
+creating table 
+
+<table>
+<tr>          ----------------> table row elemets
+    <th>Name</th>            --------------- table heads
+    <th>Surname</th> 
+    <th>Points</th>
+</tr>
+<tr>
+    <td>Brittany</td>
+    <td>Pearl</td> 
+    <td>532</td>
+</tr>
+<tr>
+    <td>Max</td>
+    <td>Power</td> 
+    <td>278</td>
+</tr>
+</table>
