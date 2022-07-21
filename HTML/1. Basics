@@ -1,0 +1,42 @@
+HTML ia a lanhuage to create well structured website.
+Basic Structure of HTML
+
+=======================================================================
+<!DOCTYPE HTML>  ===== Tells browser that it is html 5
+
+<HTML> </HTML>  ---- mother element of all other tags inside it 
+========================================================================
+we divide our page into two parts
+1. head --  here we find our page metadata / the data that user doesnt see
+
+   <head
+       <meta charset = "UTF-8">
+       <title> Tis is my page </title>       ------------- meta and title this two tags are used in head
+2. body --- to define all contents display over page
+==========================================================================
+
+so Basic Structure
+
+<!DOCTYPE html>      ---------------Note: HTML is case sensitive while HTML 5 is not
+<html>
+<head>
+ <title>Name of the website</title>
+</head>
+<body>
+ <h1>Heading for the content below</h1>
+ <p>Text text text</p>
+</body>
+</html>
+
+Important tags
+<h1> <h2>.....<h6>  used for header
+<p> </p>--- used for to make paragraph
+<br>  --- same like as <p> but indent is less like just to hit enter it is used <br> only 
+<hr> ----------- to insert a line
+<em> ---- like italic 
+<i> for italic
+<b> ----- it is not semantic 
+<strong>  ----- it is semantic --- means message to browser that its importance 
+
+
+
