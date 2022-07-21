@@ -1,0 +1,18 @@
+Hyperlinks - Hyperlinks are the glue that hold the Web together, linking documents and websites to other documents and websites.
+By attaching a link to a text, hyperlinks allow users to go back and forth between resources with a single mouse click.
+
+================================================================================================================
+* There are two type of links 
+1.Internal -- link of your own web
+1.Exteranl  --  link of wxterbal web
+
+Internally working 
+<a href="webname.html"> Go to link </a>    ----------- for internal working
+Externally  working 
+<a href="https://google.com"> Go to Google </a>    ----------- for internal working
+
+more attribute in link
+<a href="https://google.com" title=" This is site to go for google" >  Go to Google </a>     ---- here title hover on link when mouse go there
+<a href="https://google.com" title=" This is site to go for google" target="_blank"> Go to Google </a>   --- target tells to open in same tab("-self") self is defaultor other ("-blank)
+<a href="mailto:ranjeet.jnv41@gmail.com"> mail to me</a>     ---- to mail us
+
