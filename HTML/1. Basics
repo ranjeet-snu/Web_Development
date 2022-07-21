@@ -36,7 +36,39 @@ Important tags
 <em> ---- like italic 
 <i> for italic
 <b> ----- it is not semantic 
-<strong>  ----- it is semantic --- means message to browser that its importance 
+<strong>  ----- it is semantic --- means message to browser that its importance
+
+====================================================================================
+Creating List 
+There are three ways
+
+1.Ordered 
+<ol>              >>>>>>>>>>  you can use type="A" or type="a" or type="1"(By default) to list as <ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+2.Unorder
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+3.detailed/description  list
+<dl>
+   <dt> Banana </dt>
+         <dd> long </dd>
+         <dd> yellow </dd>
+    <dt> Orange </dt>
+         <dd> Round </dd>
+         <dd> Pink </dd>
+
+
+
+</dl>
 
 
 
