@@ -1,0 +1,35 @@
+We can use CSS in HTML for like Decrating it
+
+It can be used in 3 ways:
+1. Inline  -- it is used to dsign on particular element but not good
+2. Internal  --- defined under the head table and used in that file
+3. External -- define externally and link to html file
+
+CSS is insert by style tag in html.
+
+
+<body>
+  
+    <div style="width:100px; height:150px; background-color:rgb(255, 0, 0);"><p style="color:yellow"> 1</p> </div>
+    <div style="width:100px; height:150px; background-color:rgb(0, 255, 8);">  2</div>
+    <div style="width:100px; height:150px; background-color:rgb(0, 174, 255);"> 3 </div>
+
+
+</body>
+</html>
+
+
+When it comes to learning CSS, there are 4 words you need to know: selector, declaration, property, and value. 
+CSS connects rules to HTML elements. The rules, made up of selectors and declarations, instruct the browser on how to display the content of certain elements:
+
+The selector specifies which HTML element that rule will apply to. If you add commas in between, as we have in the example,
+that rule will apply to all the elements named.
+
+The declaration governs how the specified elements are to be styled. 
+
+Properties specify which feature of the element you wish to style, e.g. font, width, height, color.
+
+Values indicate what setting you want the feature set at. In the example above, 
+the color of the text is set to red, in turn making the selected text appear red in the browser window.
+
+<p style="color:yellow"> 1</p>    --- here p is selector and color is property and yellow is value and  style="color:yellow" is declaration
