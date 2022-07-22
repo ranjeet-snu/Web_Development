@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web Page</title>
+
+    <style>
+        input:required {
+            color:red;
+        }
+
+        input:optional {
+                color:greenyellow;
+        }
+        input:invalid{
+            border-color: hotpink;
+        }
+
+        input:in-range{
+            color:blueviolet;
+        }
+
+        input:out-of-range{
+          color:lemonchiffon;
+        }
+        input:checked ~ label{
+            color: lightgreen;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+        <input type="text" id="requiredInput" required>
+        <label for="requiredinput">This is required input</label>
+        </div>
+
+        <div>
+            <input type="text" id="optimalInput" >
+            <label for="optimalinput">This is optimal input</label>
+        </div>
+
+        <div>
+            <input type="email" id="emailInput" >
+            <label for="emailinput">This is valid email</label>
+            </div>
+
+            <div>
+                <input type="number" id="numberInput" min="5" max="20" required>
+                <label for="requiredinput">This is required input</label>
+                </div>
+            
+            <input type="submit">
+    </form>
+
+
+
+
+</body>
+</html>
