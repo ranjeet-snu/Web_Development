@@ -1,0 +1,22 @@
+Type
+
+1. Inline  ---    apply to only one element
+2. Internal     --- apply to one web page
+3. External         ------ apply to more than web page
+
+===============================================================
+Comments in CSS
+Comments is done like c++    --------- /*   doc */
+
+
+============================================================
+
+Selecter --- select the element to be styled , there are many wyas to do it,,like through  Universal , Type , class, ID etc...
+
+Universal---- this selector apply on every element of the HTML    ex -- if want to  do italic all text in HTML , It start with *
+Type-- to sepcific type element like heading ,parahraph ,...or all images   - it start with tag name
+
+class-- selecting elemets with particular class attribute  , It start with dot (.)
+ID -- very specific element by ID , It start with #
+
+
